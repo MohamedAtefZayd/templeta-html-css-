@@ -1,0 +1,477 @@
+/* start the main effects */
+
+body{
+	background-color:#FFF;
+}
+.contaner{
+	width:1170px;
+	margin:auto;
+}
+
+.clearfix{clear: both;}
+
+/* end the main effects */
+
+/* start header */
+
+.header{overflow: hidden;}
+
+.header .imgBack{
+	background-image: url("3D-Background-Images-For-Websites-1920x1080.jpg");
+	-webkit-background-size: cover; /*css3*/
+	-moz-background-size: cover; /*css3*/
+	-o-background-size: cover; /*css3*/
+	background-size: cover; /*css3*/
+	height: 500px;
+}
+
+.navbar{overflow: hidden;}
+
+ .navbar h1{
+	width: 30%;
+	margin-top: 0;
+	color: #FFF;
+	padding-top: 15px;
+	float: left;
+}
+
+ .navbar .eng{position: relative;bottom: 5px;}
+
+ .navbar .p{
+	text-transform: uppercase;
+	color: #212121;
+	color: #8A8F8B;
+	position: relative;
+	bottom: 5px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+ .navbar .o{
+	font-size: 35px;
+	color: #8A8F8B;
+}
+
+ .navbar ul{
+	list-style: none;
+	margin-top: 0;
+	overflow: hidden;
+}
+
+ .navbar ul li{
+	display: inline;	
+}
+
+ .navbar a{
+	text-decoration: none;
+	color: #8A8F8B;
+	text-transform: capitalize;
+	font-weight: bold;
+	
+}
+
+ .navbar a:hover{text-decoration: underline; color: white;}
+
+ .navbar .s:hover{color: #8A8F8B;}
+
+ .navbar .icon ul{
+	width: 9%;	
+	float: right;
+	padding-top: 30px;
+}
+
+ .navbar .icon ul li{
+	padding: 10px;
+	font-size: 30px;
+	color: #FFF;
+}
+
+ .navbar .ulli ul{
+	width: 40%;
+	float: left;
+	padding-top: 35px;
+}
+
+ .navbar .ulli ul li{
+	padding: 10px;
+}
+
+ .navbar h2{
+	color: #FFF;
+	padding: 230px 0 0 0;
+	width: 20%;
+	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+ .navbar p{
+	color: #8A8F8B;
+	width: 30%;
+	font-weight: bold;
+}
+
+ .navbar button{
+	background: none;
+	color: #FFF;
+	background-color:#212121;
+	border-radius: 30px;
+	border-color: black;
+	width: 10%;
+	padding: 10px;
+	font-weight: bold;
+}
+
+ .navbar button:hover{background-color: white;color: #8A8F8B;font-weight: bold;}
+
+/* end header */
+
+/* start first thing in body */
+
+.content{overflow: hidden;height: 620px;}
+
+.content .sideRight{
+	overflow: hidden;
+	width: 46%;
+	float: left;
+	margin-right: 20px;
+	margin-top: 40px;
+}
+
+.content .sideRight h3{font-weight: bold;color: black;text-transform: capitalize;font-size: 30px;}
+
+.content .sideRight p{font-weight: bold;color: black;text-transform: capitalize;line-height: 30px;}
+
+.content .sideRight h6{
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.content .sideRight .probar{background-color: #8A8F8B;width: 509px;text-align: right;}
+
+.content .sideRight .probar span{
+	background-color: black;
+	height: 100%;
+	display: block;
+	color: #FFF;
+	text-transform: capitalize;
+}
+
+.content .sideLeft{
+	overflow: hidden;
+	width: 50%;
+	float: right;
+	margin-top: 65px;
+}
+
+.content .sideLeft .con{font-size: 40px;float: left;margin: 10px;}
+
+
+.content .sideLeft h4{
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+	position: relative;
+	bottom: 10px;
+}
+
+.content .sideLeft p{
+	float: left;
+	padding-left: 60px;
+	position: relative;
+	bottom: 30px;
+	font-weight: bold;
+}
+
+.content .sideLeft .pro2{position: relative;bottom: 25px;}
+
+.content .sideLeft .pro3{position: relative;bottom: 40px;}
+
+.content .sideLeft .pro4{position: relative;bottom: 70px;}
+
+/* end first thing in body */
+
+/* start big photo */
+
+.conti{padding-right: 20px;}
+
+.big{overflow: hidden;}
+
+.big .image{
+	background-image: url("3D-Background-Images-For-Websites-1920x1080.jpg");
+	-webkit-background-size: cover; /*css3*/
+	-moz-background-size: cover; /*css3*/
+	-o-background-size: cover; /*css3*/
+	background-size: cover; /*css3*/
+	height: 250px;
+}
+
+.big ul{
+	list-style: none;
+	overflow: hidden;
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	padding-top: 40px;
+	text-transform: capitalize;
+	color: #8A8F8B;
+}
+
+.big ul li{
+	padding: 15px;
+}
+
+.big ul li:hover{color: #FFF;}
+
+.big ion-icon{
+	font-size: 35px;
+}
+
+
+.cl1,.cl2,.cl3,.cl4{
+	width: 25%;
+	float: left;
+}
+
+.bord{
+	border: 3px solid white;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 60px;
+}
+
+.bord:hover{background-color: #8A8F8B;color: #FFF;}
+
+/* end big photo */
+
+/* start many images */
+
+.many{overflow: hidden;margin-top: 70px;}
+
+.many .text h2{
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 30px;
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+
+.many .text h2:hover{color: #8A8F8B;}
+
+.many .text button{
+	background: none;
+	text-transform: uppercase;
+	float: right;
+	font-weight: bold;
+	border: 3px solid black;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 60px;
+	padding: 10px;
+	text-align: center;
+}
+
+.bot{padding-right: 150px;}
+
+.hed{padding-right: 120px;}
+
+.many .text button:hover{
+	background-color: #8A8F8B;
+	color: #FFF;
+	font-weight: bold;
+	border: 3px solid #8A8F8B;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 60px;
+}
+
+.many .allPhoto{width: 1395px;margin-top: 120px;}
+
+.many .allPhoto img{width: 24%;display: inline;height: 200.31px;}
+
+.many .allPhoto ul {list-style: none;padding: 0;margin: 0;}
+
+.many .allPhoto ul li{display: inline;padding: 0;}
+
+.many .allPhoto ul li img:hover{opacity: .7;}
+
+/* end many images */
+
+/* start new list */
+
+.list{overflow: hidden;margin-top: 70px;}
+
+.list .text h2{
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 30px;
+	float: left;
+	width: 45%;
+	text-align: center;
+	margin: auto;
+}
+
+.list .text h2:hover{color: #8A8F8B;}
+
+.list .text button{
+	background: none;
+	text-transform: uppercase;
+	float: right;
+	font-weight: bold;
+	border: 3px solid black;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 60px;
+	padding: 10px;
+	text-align: center;
+	margin-right: 30px;
+}
+
+.bot{padding-right: 150px;}
+
+.hed{padding-right: 120px;}
+
+.list .text button:hover{
+	background-color: #8A8F8B;
+	color: #FFF;
+	font-weight: bold;
+	border: 3px solid #8A8F8B;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 60px;
+}
+
+.hap{
+	padding-top: 100px;
+}
+
+
+.list .hap ul{
+	list-style: none;
+	width: 30%;
+	float: left;
+	padding: 14px;
+	font-weight: bold;
+	margin-right: 5px;
+	overflow: hidden;
+	background-color: #8A8F8B;
+	border: 3px solid black;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 30px;
+}
+
+.list .hep ul li{
+	display: inline;
+}
+
+
+.list .hap ul h4{font-size: 20px;}
+.list .hap ul p{opacity: .7;}
+
+
+/* end new list */
+
+/*  start profile */
+
+.profile{
+	margin-top: 280px;
+}
+
+.profile{
+	background-image: url("3D-Background-Images-For-Websites-1920x1080.jpg");
+	-webkit-background-size: cover; /*css3*/
+	-moz-background-size: cover; /*css3*/
+	-o-background-size: cover; /*css3*/
+	background-size: cover; /*css3*/
+	height: 625px;
+}
+
+.profile .oppo{
+	text-align: center;
+	font-weight: bold;
+	color: #8A8F8B;
+	text-transform: capitalize;
+	width: 50%;
+	float: right;
+}
+
+.profile img{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	padding-top: 50px;
+	padding-left: 150px;
+}
+
+.profile h4{font-size: 35px;margin-top: 10px;margin-bottom: 10px;padding-left: 150px;}
+.profile h5{font-size: 25px;margin-top: 0px;padding-left: 150px;}
+
+.profile .form{
+	width: 50%;
+	float: left;
+	color: #8A8F8B;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.form label{
+	display: block;
+	margin-bottom: 20px;
+	padding-top: 15px;
+	font-size: 20px;
+}
+
+.form input,textarea{
+	display: block;
+	border: 0;
+	margin-bottom: 15px;
+	outline: none;
+	background:none	;
+	border-bottom: 2px solid #FFF;
+	width: 450px;
+}
+
+.form input,textarea:focus{
+	color: #FFF;
+	font-weight: bold;
+}
+
+.form textarea{height: 30px;resize: none;margin-bottom: 50px;}
+
+.form h3{font-size: 40px;}
+
+.form .buton{
+	background: none;
+	color: #FFF;
+	background-color:#212121;
+	border-radius: 30px;
+	border-color: black;
+	width: 30%;
+	padding: 10px;
+	font-weight: bold;
+	margin: auto;
+	margin-left: 120px;
+	text-transform: capitalize;
+}
+
+.form .buton:hover{background-color: white;color: black;font-weight: bold;}
+
+/* end profile */
+
+/* start footer */
+
+.barcore{background-color: #2E2E2C;}
+/* end footer */
